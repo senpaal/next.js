@@ -1,0 +1,47 @@
+.backHome {
+    display: flex;
+    position: absolute;
+    height: fit-content;
+    font-size: 20px;
+    border: none;
+    border-color: gray;
+    border-radius: 5px;
+    scale: 1;
+    transition: all 0.3s;
+}
+
+.backHome:hover {
+    scale: 1.05;
+    transition: all 0.3s;
+    color: black;
+    background-color: gray;
+    border: 1px solid gray; 
+    border-radius: 5px;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 4rem;
+    cursor: default;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+.goAbout {
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    transition: all 0.2s;
+}
+
+.goAbout:hover {
+    color: #4759c2;
+}
